@@ -2,12 +2,12 @@ import React from 'react';
 import Layout from '../Components/Layout';
 import Hero from '../Components/Home/Hero';
 import Portfolio from '../Components/Home/Portfolio';
-import { Typography, Box, Container } from '@mui/material';
+import { Typography, Box, Container, Button, Grid, } from '@mui/material';
+import Stats from '../Components/Stats';
 
 const Home = () => {
   return (
     <Layout>
-      {/* Optional Hero Component */}
       <Hero />
 
       {/* Main Content */}
@@ -39,10 +39,10 @@ const Home = () => {
             A curated collection from recent events, capturing beauty,
             emotion, and timeless moments.
           </Typography>
-
           <Portfolio />
         </Box>
       </Container>
+      <Stats/>
     </Layout>
   );
 };

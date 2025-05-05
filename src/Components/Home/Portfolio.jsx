@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Container, CircularProgress, Card, CardMedia, Button } from '@mui/material';
 import { Masonry } from '@mui/lab';
-import { motion } from 'framer-motion';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const PIXABAY_API_KEY = '50038304-845c140fe6978ae2b7ecf5019';
 
